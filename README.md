@@ -1,6 +1,21 @@
 # BioE 230 Week 3-4
 
 a simple tool that finds genes in genome sequence using Python
+- I used chatgpt to help with this HW.
+- I also got help form my classmates Ashhad and Omar.
+- my prompt to chatgpt beacuse I had not functioning code, I wote the code and asked chat gpt to fix the code to get the final version to be listed below
+#### Chatgpt Promt
+we will write a simple tool that finds genes in genome sequence using Python. The tool you write needs to take command line parameters
+for the input file. The input file should consist of a single FASTA file
+containing a single genome.
+Your tool should read a FASTA file, and output any region between a
+start (‘ATG’) and stop codon (‘TAA’, ‘TAG’, ‘TGA’) in that FASTA file;
+you must consider to include the reverse complement and search
+in all six possible reading frames for genes. use BioPython. 
+The of the code output should be in this form 
+>ORF_#
+AGGAGATCCGATCGATAGCTGAATAGATAGCTGAGATAGCAGCTGCTCTCTTTTCCCAAA
+
 
 ## Question 1 
 
