@@ -13,8 +13,8 @@ start (‘ATG’) and stop codon (‘TAA’, ‘TAG’, ‘TGA’) in that FASTA
 you must consider to include the reverse complement and search
 in all six possible reading frames for genes. use BioPython. 
 The of the code output should be in this form 
->ORF_#
-AGGAGATCCGATCGATAGCTGAATAGATAGCTGAGATAGCAGCTGCTCTCTTTTCCCAAA
+" >ORF_#
+AGGAGATCCGATCGATAGCTGAATAGATAGCTGAGATAGCAGCTGCTCTCTTTTCCCAAA" 
 
 
 ## Question 1 
